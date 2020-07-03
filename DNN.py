@@ -56,6 +56,7 @@ def gradient_check(X, Y, layer_dims, layer_types, parameters,lambd, epsilon = 1e
         difference = numerator/denominator
     print("********differrence = "+str(difference))
 
+    #doing the sigmoid function file fast
 
 def check_sigmoid():
     X, Y = input_data.loadHandwritingTrainingData()    #X.shape=(1024,387)  Y.shape=(1,387)
