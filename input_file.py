@@ -35,6 +35,7 @@ def loadHandwritingTrainingData():
     assert(trainDigits.shape[1]==trainLabels.shape[1])
     print(trainDigits.shape)
     return trainDigits, trainLabels
+# let us load handwritingtestdata now
 
 def loadHandwritingTestData():
     """
