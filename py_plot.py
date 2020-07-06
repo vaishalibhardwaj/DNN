@@ -18,6 +18,7 @@ def show_decision_boundry(X, Y, Y_onehot, predict_function, parameters, hidden_l
     plt.xlim(x1.min(), x1.max())
     plt.ylim(x2.min(), x2.max())
     plt.show()
+# defining the samples and plotting the data    
 
 
 def display_image_samples(datasets, image_shape, sample_indices):
